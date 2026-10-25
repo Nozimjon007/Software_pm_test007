@@ -1,0 +1,26 @@
+name: rideline
+description: >-
+  RideLine - company shuttle management for organizers.
+  CS363 Software Project Management - midterm prototype (Team Bonjour).
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Simple app-wide state (ChangeNotifier)
+  provider: ^6.1.2
+  # Live tracking map (OpenStreetMap tiles, no API key needed)
+  flutter_map: '>=7.0.2 <9.0.0'
+  latlong2: ^0.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

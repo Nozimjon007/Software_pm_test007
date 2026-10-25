@@ -1,0 +1,12 @@
+{
+  "name": "RideLine",
+  "short_name": "RideLine",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#F4F7FB",
+  "theme_color": "#1F4E79",
+  "description": "Company shuttle management for organizers",
+  "orientation": "any",
+  "prefer_related_applications": false,
+  "icons": []
+}
